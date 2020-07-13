@@ -1,4 +1,4 @@
-  class Song 
+class Song
   attr_accessor :name, :artist_name
   @@all = []
 
@@ -68,3 +68,4 @@
   def self.destroy_all
     self.all.clear
   end
+end
